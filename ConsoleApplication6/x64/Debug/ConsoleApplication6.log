@@ -1,0 +1,10 @@
+﻿  ConsoleApplication6.cpp
+C:\Users\NEW PC\source\repos\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.cpp(26,11): warning C4101: 'dasd': unreferenced local variable
+ConsoleApplication6.obj : error LNK2019: unresolved external symbol curl_global_init referenced in function main
+ConsoleApplication6.obj : error LNK2019: unresolved external symbol curl_global_cleanup referenced in function main
+ConsoleApplication6.obj : error LNK2019: unresolved external symbol curl_easy_init referenced in function main
+ConsoleApplication6.obj : error LNK2019: unresolved external symbol curl_easy_setopt referenced in function main
+ConsoleApplication6.obj : error LNK2019: unresolved external symbol curl_easy_perform referenced in function main
+ConsoleApplication6.obj : error LNK2019: unresolved external symbol curl_easy_cleanup referenced in function main
+curl\libcurl_a_debug.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\NEW PC\source\repos\ConsoleApplication6\x64\Debug\ConsoleApplication6.exe : fatal error LNK1120: 6 unresolved externals
